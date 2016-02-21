@@ -11,8 +11,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sass-rails', '>= 3.2'
+
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
@@ -22,3 +25,4 @@ group :development do
 gem 'web-console', '~> 2.0'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'therubyracer', :platforms => :ruby

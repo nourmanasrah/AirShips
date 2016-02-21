@@ -1,0 +1,34 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.form-control:focus {
+	box-shadow: 10px 10px 5px #888888;
+	border-color: orange;
+}
+.sign-up {
+  background-color: green;
+  border-color: green;
+}
+.log-in {
+    background-color: green;
+    border-color: green;
+}
+.log-in:hover,
+.log-in:active,
+.log-in:target {
+    background-color: green;
+    border-color: green;
+}
+.remember_me {
+    position: absolute;
+}
+.forgot-password {
+    position: relative;
+    left: 41%;
+    bottom: 6px;
+}
+.birthday.calendar {
+  padding-bottom: 12px;
+}
+.birthday-selector {
+    display: inline-flex;
+}
