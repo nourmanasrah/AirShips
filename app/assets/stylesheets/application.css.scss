@@ -5,18 +5,24 @@
 	border-color: orange;
 }
 .sign-up {
-  background-color: green;
-  border-color: green;
+  background-color: #fd802f;
+  border-color: #fd802f;
+}
+.sign-up:hover,
+.sign-up:active,
+.sign-up:target {
+    background-color: #fd8010;
+    border-color: #fd8010;
 }
 .log-in {
-    background-color: green;
-    border-color: green;
+    background-color: #fd802f;
+    border-color: #fd802f;
 }
 .log-in:hover,
 .log-in:active,
 .log-in:target {
-    background-color: green;
-    border-color: green;
+    background-color: #fd8010;
+    border-color: #fd8010;
 }
 .remember_me {
     position: absolute;
@@ -26,8 +32,18 @@
     left: 41%;
     bottom: 6px;
 }
+.forgot-password-btn {
+	background-color: #fd802f;
+    border-color: #fd802f;
+}
+.forgot-password-btn:hover,
+.forgot-password-btn:active,
+.forgot-password-btn:target {
+	background-color: #fd8010;
+    border-color: #fd8010;
+}
 .birthday.calendar {
-  padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 .birthday-selector {
     display: inline-flex;
