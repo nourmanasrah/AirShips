@@ -48,3 +48,28 @@
 .birthday-selector {
     display: inline-flex;
 }
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #b94a48;
+    color: #b94a48;
+    text-align: left;
+ }
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #b94a48;
+    color: #b94a48;
+    text-align: left;
+ }
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #468847;
+    color: #468847;
+    text-align: left;
+ }
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
