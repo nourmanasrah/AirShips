@@ -1,8 +1,8 @@
 <div class="row">
   <div class="col-md-6 col-md-offset-3 text-center">
-  <h2>Log in</h2>
-
+    <h2>Log in</h2>
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <%= devise_error_messages! %>
       <div class="form-group">
         <%= f.email_field :email, autofocus: true, :class => "form-control", :placeholder => "Email Address" %>
       </div>
@@ -20,10 +20,10 @@
       <div class="actions">
         <%= link_to "Forgot Password", new_user_password_path, :class => "btn btn-link forgot-password" %>
         <br>
-        <%= f.submit "Log in", :class => "btn btn-primary btn-lg btn-block log-in" %>
-      </div>
+        <%= f.submit "Log in", :class => "btn btn-warning btn-lg btn-block log-in" %>
+      </div> 
       <hr>
-      Don’t have an account? <%= link_to "Sign Up", new_registration_path(resource_name) %>
+       Don’t have an account? <%= link_to "Sign Up", new_registration_path(resource_name) %>
     <% end %>
   </div>
 </div>
