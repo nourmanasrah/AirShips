@@ -42,6 +42,27 @@
 	background-color: #fd8010;
     border-color: #fd8010;
 }
+.change-my-password {
+    background-color: #fd802f;
+    border-color: #fd802f;
+}
+.change-my-password:target,
+.change-my-password:hover,
+.change-my-password:active {
+    background-color: #fd8010;
+    border-color: #fd8010;
+}
+.update-btn {
+    background-color: #fd802f;
+    border-color: #fd802f;
+}
+.update-btn:target,
+.update-btn:hover,
+.update-btn:active {
+    background-color: #fd8010;
+    border-color: #fd8010;
+}
+
 .birthday.calendar {
     padding-bottom: 12px;
 }
